@@ -23,7 +23,8 @@ export const MouseOverBox: React.FC<IMouseOverBoxProps> = (props: IMouseOverBoxP
                 }
             }}>
             <img className="Mouse-Over-Image" 
-                src={props.imagePath} />
+                src={props.imagePath}
+                alt={`One of the images is here. Currently highlighted ${counter} times.`} />
             <p className="Mouse-Over-Box-Text">{counter} points</p>
 
         </div>
