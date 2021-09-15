@@ -21,6 +21,11 @@ export const MouseOverBox: React.FC<IMouseOverBoxProps> = (props: IMouseOverBoxP
                 if(!props.freezeCounter){
                     setCounter(counter + 1)
                 }
+            }}
+            onClick={() => {
+                if(!props.freezeCounter){
+                    setCounter(counter + 2)
+                }
             }}>
             <img className="Mouse-Over-Image" 
                 src={props.imagePath}

@@ -48,6 +48,9 @@
   object-fit: cover;
   border-radius: 1rem;
 }
+.Mouse-Over-Image:active {
+  box-shadow: 0 0 2px 4px #555;
+}
 
 .Mouse-Over-Box-Text {
   position: absolute;
