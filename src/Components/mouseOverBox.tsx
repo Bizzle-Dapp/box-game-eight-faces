@@ -15,6 +15,12 @@ export const MouseOverBox: React.FC<IMouseOverBoxProps> = (props: IMouseOverBoxP
         }
     }, [counter]);
 
+    const displayText = () => {
+        return counter < 10 ? 
+         `${counter} points` :
+         "Most popular face."
+    }
+
     return(
         <div className="Mouse-Over-Box" 
             onMouseEnter={() => { 
@@ -30,7 +36,7 @@ export const MouseOverBox: React.FC<IMouseOverBoxProps> = (props: IMouseOverBoxP
             <img className="Mouse-Over-Image" 
                 src={props.imagePath}
                 alt={`One of the images is here. Currently highlighted ${counter} times.`} />
-            <p className="Mouse-Over-Box-Text">{counter} points</p>
+            <p className="Mouse-Over-Box-Text">{ displayText() }</p>
 
         </div>
     )
