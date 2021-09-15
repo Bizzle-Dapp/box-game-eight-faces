@@ -1,46 +1,14 @@
-# Getting Started with Create React App
+# Box Game (Eight-Faces)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a little task I constructed for a member of our Discord channel as a means to practice web-development.
 
-## Available Scripts
+Figured I would create a rendition also to be used as a potential comparison.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Box Game Exercise:
+[You work for a new digital agency. Your project manager has told you that the new BIG THING is the onMouseOver event. The agency have suggested that writing the application in React/Vue is preferable but not required. The functionality that the MVP product should produce is as follows:]
+- The user should hit a landing page, which displays 8 faces.
+- Every time the mouse hovers over one of the faces, a caption that either already exists or appears upon the first time the face it mouse overed, should increase as a counter. From 0 to a maximum of 10.
+- When a face has reached a mouse over value of 10, it should display "Most popular face" as a caption. At the time that a most popular face is given, lock all other increases.
+- There is also an optional requirement to allow the user to click one of the faces displayed, and thus increase the counter by the mouse over value and a further 2.
+- There should be an mandatory option for the user to reset all counters displayed on the page.
+- The project manager said it would also be nice (but absolutely don't spend too much time on the subject) to output the current id of all faces and their current hover/click score to a json file.

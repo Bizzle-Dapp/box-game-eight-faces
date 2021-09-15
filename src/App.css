@@ -16,8 +16,7 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -28,11 +27,28 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Mouse-Over-Box {
+  box-sizing: border-box;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  border: 0.25rem black solid;
+  border-radius: 1rem 0 1rem 0;
+  padding: 0.5rem;
+  max-width: 25vw;
+  max-height: 25vw;
+  background-color: azure;
+}
+
+.Mouse-Over-Image {
+  height:20rem; 
+  width:20rem;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.Mouse-Over-Box-Text {
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
 }
