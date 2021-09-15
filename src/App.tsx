@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { MouseOverBox } from './Components/mouseOverBox';
+import { ResetButton } from './Components/resetButton';
 
 function App() {
   let someRandomImagesOfPeopleStoredInAnArray = [
@@ -28,6 +29,8 @@ function App() {
   return (
     <div className="App App-header">
       <h1>Mouse over the images to increase their counters.</h1>
+      <ResetButton reset={() => window.location.reload()}/>
+      <br/>
       {renderImagesFromArray()}
     </div>
   );
