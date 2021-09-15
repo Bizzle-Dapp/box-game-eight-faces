@@ -4,6 +4,8 @@ This is a little task I constructed for a member of our Discord channel as a mea
 
 Figured I would create a rendition also to be used as a potential comparison.
 
+You can view the app <a href="https://master.d37lz3hyr0vie6.amplifyapp.com/" target="/">here</a>.
+
 Box Game Exercise:
 [You work for a new digital agency. Your project manager has told you that the new BIG THING is the onMouseOver event. The agency have suggested that writing the application in React/Vue is preferable but not required. The functionality that the MVP product should produce is as follows:]
 - The user should hit a landing page, which displays 8 faces.
