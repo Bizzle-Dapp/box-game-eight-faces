@@ -1,21 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
+  text-align: center;
   background-color: #282c34;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  max-width: 100vw;
   min-height: 100vh;
   display: inline-block;
   align-items: center;
@@ -25,10 +12,6 @@
   padding-bottom: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .Mouse-Over-Box {
   box-sizing: border-box;
   display: inline-block;
@@ -36,17 +19,22 @@
   vertical-align: top;
   border: 0.25rem black solid;
   border-radius: 1rem 0 1rem 0;
-  padding: 0.5rem;
-  max-width: 25vw;
-  max-height: 25vw;
+  padding: 2px;
+  width: 25vw;
+  height: 22vh;
   background-color: azure;
 }
 
 .Mouse-Over-Image {
-  height:20rem; 
-  width:20rem;
+  position:relative;
+  align-items: center;
+  justify-content: center;
+  height: 20vh; 
+  width: 20vw;
   object-fit: cover;
-  border-radius: 1rem;
+  border-radius: 1rem 0 1rem 0;
+  margin: 0px;
+  padding: 0px;
 }
 .Mouse-Over-Image:active {
   box-shadow: 0 0 2px 4px #555;

@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-    <div className="App App-header">
+    <div className="App-header">
       <h1>Mouse over the images to increase their counters.</h1>
       <ResetButton reset={() => window.location.reload()}/>
       <br/>
